@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+    <!-- favicon -->
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/android-chrome-512x512-removebg-preview.png" width="50" height="50" alt="sm-logo">
+            </a>
+        </div>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-logo">
+                    <a href="#">Sindhu Muthuchamy</a>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#topics">Topics</a></li>
+                    <li><a href="#post">Recent Post</a></li>
+                    <li><a href="#news">Contact</a></li>
+                </ul>
+                <div class="navbar-subscribe">
+                    <a href="#" class="subscribe-btn">Subscribe</a>
+                </div>
+                <div class="sidenav-icon">
+                    <button id="hamburger">
+                <i class="fa-solid fa-bars" style="color: #38b2ac;"></i>
+            </button>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="box-blog" id="topics">
+        <div class="box-heading">
+            <h1 class="editor-heading">Editor's pics</h1>
+    <p class="editor-para">Featured and highly rated article</p>
+        </div>
+    
+    <div class="box-container">
+        <div class="box">
+            <img src="./personal blog/assets/images/mentalhealth.png" alt="Sport">
+            <div class="box-content">
+                <h3>Mental Health</h3>
+                <p>38 Articles</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./personal blog/assets/images/recent-post-3.jpg" alt="Travel">
+            <div class="box-content">
+                <h3>Travel</h3>
+                <p>63 Articles</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./personal blog/assets/images/design.jpg" alt="Design">
+            <div class="box-content">
+                <h3>Design</h3>
+                <p>78 Articles</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./personal blog/assets/images/recent-post-1.jpg" alt="Food">
+            <div class="box-content">
+                <h3>Freelancing</h3>
+                <p>52 Articles</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./personal blog/assets/images/recent-post-4.jpg" alt="Technology">
+            <div class="box-content">
+                <h3>Technology</h3>
+                <p>85 Articles</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./personal blog/assets/images/health.jpg" alt="Health">
+            <div class="box-content">
+                <h3>Health</h3>
+                <p>40 Articles</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Box Container -->
+<section class="editor" id="post">
+    <h1 class="editor-heading">Personal Blogs</h1>
+    <p class="editor-para">Featured by Personal toughts only</p>
+    <div class="box-container-editor">
+        <!-- Editor Box 1 -->
+        <div class="editorbox" onclick="navigateToPage('page1.html')">
+            <img src="./assets/images/self.jpeg" alt="Editor Image">
+            <div class="editorbox-content">
+                <h3>Self-observation is the first step of inner unfolding</h3>
+                <div class="profile">
+                    <div class="profile-pic">
+                    <img src="./assets/images/favicon-32x32.png" alt="Profile Picture" class="profile-pic">
+                </div>
+                <div class="profile-para">
+                    <p class="name">Sindhu</p>
+                    <p class="date">2 Sep 2024</p>
+                </div>
+                </div>
+                <p class="read-more">Read more</p>
+            </div>
+        </div>
+
+        <!-- Editor Box 2 -->
+        <div class="editorbox" onclick="navigateToPage('page2.html')">
+            <img src="./personal blog/assets/images/featured-4.png" alt="Editor Image">
+            <div class="editorbox-content">
+                <h3>Exploring the wonders of the natural world</h3>
+                <div class="profile">
+                    <div class="profile-pic">
+                    <img src="./assets/images/favicon-32x32.png" alt="Profile Picture" >
+                </div>
+                <div class="profilr-para">
+                    <p class="name">Sindhu</p>
+                    <p class="date">3 Sep 2024</p>
+                </div>
+                </div>
+                <p class="read-more">Read more</p>
+            </div>
+        </div>
+
+        <!-- Editor Box 3 -->
+        <div class="editorbox" onclick="navigateToPage('page3.html')">
+            <img src="./assets/images/Dream.edit.jpg" alt="Editor Image" >
+            <div class="editorbox-content">
+                <h3>The journey of a thousand miles begins with one step</h3>
+                <div class="profile">
+                    <div class="profile-pic">
+                    <img src="./assets/images/favicon-32x32.png" alt="Profile Picture" class="profile-pic">
+                </div>
+                <div class="profile-para">
+                    <p class="name">Sindhu</p>
+                    <p class="date">5 Sep 2024</p>
+                </div>
+                </div>
+                <p class="read-more">Read more</p>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Show More Button -->
+    <div class="show-more-container">
+        <button class="show-more-btn">Show More Posts</button>
+    </div>
+<!-- footer -->
+
+<footer>
+    <div class="footer-content">
+        <div class="about">
+            <h2>Sindhu Muthuchamy</h2>
+            <address>
+                Coimbatore
+            </address>
+            <ul>
+                <li ><i class="fa-brands fa-instagram" style="color: #38b2ac;" ></i><a href="https://www.instagram.com/sm_indhu?igsh=aTFibGo0b3prazl2"> Instagram</a></li>
+                <li><i class="fa-brands fa-facebook" style="color: #38b2ac;"></i> <a href="">Facebook</a></li>
+                <li><i class="fa-brands fa-linkedin" style="color: #38b2ac;"></i> <a href="https://www.linkedin.com/in/sindhu-muthuchamy/">Linkedin </a></li>
+                <li><i class="fa-brands fa-whatsapp" style="color: #38b2ac;"></i> <a href="https://wa.me/918778265394"> Whatsapp </a></li>
+                <li><i class="fa-brands fa-github" style="color: #38b2ac;"></i> <a href="https://github.com/sindhuMuthuchamy?tab=repositories"> GitHub </a></li>
+            </ul>
+        </div>
+        <div class="categories">
+            <h3>Categories</h3>
+            <div class="list">
+            <ul>
+                <li>Drawing</li>
+                <li>Business</li>
+                <li>Adventure</li>
+                <li>Freelance</li>
+                <li>Foods</li>
+                <li>Health</li>
+            </ul>
+            <ul>
+                <li>Pets</li>
+                <li>E-commerce website</li>
+                <li>Social Media</li>
+                <li>Smoothie</li>
+                <li>Breakfast</li>
+                <li>Dessert</li>
+            </ul>
+        </div>
+        </div>
+        <div class="newsletter" id="news">
+            <h3>Newsletter</h3>
+            <p>Sign up to be first to receive the latest stories, case studies, and industry news.</p>
+            <form>
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <!-- copyright -->
+     <div class="copyright">
+        <p>Copyright 2024 © Sindhu Muthuchamy - Personal Blog</p>
+     </div>
+</footer>
+
+<script src="script.js"></script>
+    <script>
+        function navigateToPage(url) {
+    window.location.href = url;
+}
+
+document.getElementById('hamburger').addEventListener('click', function() {
+    document.querySelector('.navbar-menu').classList.toggle('active');
+});
+
+    </script>
+
+    
+</body>
+</html>
